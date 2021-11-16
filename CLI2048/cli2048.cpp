@@ -79,6 +79,7 @@ int main(int argc, char* argv[]) {
 			std::cout << " -s/--size <width> <height> | Specify board size    " << std::endl;
 			std::cout << " -r/--random                | Autoplay randomly     " << std::endl;
 			std::cout << " -d/--delay <milliseconds>  | Specify autoplay speed" << std::endl;
+			return EXIT_SUCCESS;
 		}
 		argi++;
 	}
